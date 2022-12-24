@@ -1,0 +1,25 @@
+Boost text/bar
+9|Simple plugin that just shows you how much boost you have
+9|It can display your boost as a bar or as text, and you can move and scale each separately
+8|
+1|Enable plugin|boost_plugin_enabled
+8|
+9|Text options
+8|
+1|Enable text|boost_text_enabled
+1|Text color|boost_color
+1|Text shadow|boost_shadow
+4|Text scale|boost_scale|.1|10
+4|Text X pos|boost_xpos|-9999|9999
+4|Text Y pos|boost_ypos|-9999|9999
+4|Text opacity|boost_alpha|0|255
+4|Text background opacity|boostbg_alpha|0|255
+8|
+9|Bar options
+8|
+1|Enable bar|boostbar_enabled
+1|Bar color|boostbar_color
+4|Bar scale|boostbar_scale|.1|10
+4|Bar X pos|boostbar_xpos|-9999|9999
+4|Bar Y pos|boostbar_ypos|-9999|9999
+4|Bar opacity|boostbar_alpha|0|255
