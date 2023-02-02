@@ -133,8 +133,8 @@ void Boost::RenderBar(CanvasWrapper canvas)
 	auto color = Boost::GetColor(boostAmount);
 	CVarWrapper colorCvar = cvarManager->getCvar("boostbar_color");
 	bool color_enabled = colorCvar.getBoolValue();
-	if (color_enabled) canvas.SetColor(color[0], color[1], color[2], *boost_alpha);
-	else canvas.SetColor(255, 255, 255, *boost_alpha);
+	if (color_enabled) canvas.SetColor(color[0], color[1], color[2], *boost_alpha);//shouldn't this be boostbar_alpha?
+	else canvas.SetColor(255, 255, 255, *boost_alpha);//shouldn't this be boostbar_alpha?
 
 	canvas.SetPosition(barPosition);
 	canvas.FillBox(boostBarSize);
